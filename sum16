@@ -1,0 +1,17 @@
+# Write a java program to print the system properties 
+
+package Assesement2;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class SystemProperties {
+    protected static void main(String args[]){
+        String Dir = System.getProperty("user.dir");
+        System.out.println("Current directory using System:"+Dir);
+       long a= System.currentTimeMillis();
+       System.out.println("current time millis:"+a);
+       System.exit(1);
+
+    }
+}
